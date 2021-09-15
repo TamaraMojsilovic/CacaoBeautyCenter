@@ -1,0 +1,38 @@
+body{
+    background-color: wheat;
+}
+
+.naslov{
+    text-align: center;
+    background-color: rgb(160, 126, 62);
+    color: white;
+    position: sticky;
+    width: 80%;
+    margin: auto;
+    height: 50px;
+}
+
+.linkNaslov{
+    color: white;
+    text-decoration: none;
+}
+
+.naslovnaTabela{
+    position: relative;
+    margin-right: 0px;
+    margin-left: auto;
+    height: 100%;
+}
+
+.celijaNaslov{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15pt;
+    border-left: solid white 1px;
+}
+
+.forma{
+    text-align: center;
+    border-radius: 30px;
+}
+

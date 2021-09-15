@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakazite termin - Cacao Beauty Center</title>
+    <link rel="stylesheet" type="text/css" href="css/termin.css" >
+</head>
+<body onload="vreme()">
+    <div class="naslov">
+        <table class="naslovnaTabela">
+            <tr>
+                <td class="celijaNaslov"><a class="linkNaslov" href="index.html" target="_blank"> Pocetna </a></td> 
+                <td class="celijaNaslov"><a class="linkNaslov" href="akcije.html" target="_blank"> Akcije </a></td> 
+                <td class="celijaNaslov"><a class="linkNaslov" href="termin.html"> Zakazite termin </a></td> 
+                <td class="celijaNaslov"><a class="linkNaslov" href="galerija.html" target="_blank"> Galerija </a></td> 
+                <td class="celijaNaslov"><a class="linkNaslov" href="kontakt.html" target="_blank">Kontakt</a></td>
+                <td class="celijaNaslov"><a class="linkNaslov" href="oNama.html" target="_blank">O nama </a></td>
+            </tr>
+        </table>
+    </div>
+
+    <br><hr>
+    <div class="forma" style="background-image: url(slike/termin.jpg)">
+    <form id="forma1">
+        <br>
+        <label for="imePrezime"><b>Ime i prezime:</b></label>
+        <input type="text" name="imePrezime" id="imePrezime" onfocus="klikomNaPolje(this)" required>
+        <label id="demo"></label>
+        <br><br>
+        <label for="brojTelefona"><b>Broj mobilnog telefona:</b></label>
+        <input type="text" name="brojTelefona" id="brojTelefona" onfocus="klikomNaPolje(this)" required>
+        <br><br>
+        <label for="email"><b>E-mail adresa:</b></label>
+        <input type="text" name="email" id="email" onfocus="klikomNaPolje(this)" onchange="malaSlova(this)" required>
+        <br><br>
+        <label for="pol"><b>Pol:</b></label>
+        <select name="pol" id="pol">
+            <option value="zenski">Ženski</option>
+            <option value="muski">Muški</option>
+        </select>
+        <br><br>
+        <label for="grad"><b>Izaberite grad:</b></label>
+        <br>
+        <input type="radio" name="grad" value="kg" id="grad">
+        <label for="kg"><b>Kragujevac</b></label>
+        <br>
+        <input type="radio" name="grad" value="bg" id="grad">
+        <label for="bg"><b>Beograd</b></label>
+        <br><br>
+        <label for="tretman"><b>Navedite tretman i datum kada hoćete da zakažete:</b></label>
+        <br>
+        <textarea name="tretman" id="tretman" cols="30" rows="5" onfocus="klikomNaPolje(this)" required></textarea>
+        <br><br>
+        <label for="potvrda"><b>Putem čega želite da Vam stigne potvrda termina?</b></label>
+        <br>
+        <input type="checkbox" name="potvrdaS" value="sms" id="potvrdaSms">
+        <label for="potvrdaSms"><b>SMS</b></label>
+        <br>
+        <input type="checkbox" name="potvrdaM" value="mail" id="potvrdaMail">
+        <label for="potvrdaMail"><b>E-mail<b></label>
+        <br>
+        <input type="checkbox" name="potvrdaP" value="poziv" id="potvrdaPoziv">
+        <label for="potvrdaPoziv"><b>Telefonski poziv</b></label>
+        <br><br>
+        <label for="datum"><b>Datum podnošenja zahteva za zakazivanje:</b></label>
+        <br>
+        <p id="datumZak"></p>
+        <input class="submit" type="submit" value="Zakažite">
+        <br>
+        <br>
+    </form>
+    </div>
+    <hr>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="js/termin.js"></script>
+</body>
+</html>

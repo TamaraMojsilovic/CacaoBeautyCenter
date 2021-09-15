@@ -1,0 +1,84 @@
+body{
+    background-color: wheat;
+}
+
+.kontejner{
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.naslov{
+    text-align: center;
+    background-color: rgb(160, 126, 62);
+    color: white;
+    position: sticky;
+    margin: auto;
+    height: 50px;
+}
+
+.linkNaslov{
+    color: white;
+    text-decoration: none;
+}
+
+.naslovnaTabela{
+    position: relative;
+    margin-right: 0px;
+    margin-left: auto;
+    height: 100%;
+}
+
+.celijaNaslov{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15pt;
+    border-left: solid white 1px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(160, 126, 62);
+    text-shadow: 
+        -0.65px -0.65px 0 rgb(65, 50, 23),
+        0.65px -0.65px 0  rgb(65, 50, 23),
+        0.65px 0.65px 0 rgb(65, 50, 23),
+        -0.65px 0.65px 0  rgb(65, 50, 23);
+}
+
+.slika{
+    width: 600px;
+    height: 600px;
+    border-radius: 30px;
+}
+
+.div1{
+    position: relative;
+    padding: 50px;
+}
+
+.div2{
+    position: relative;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgb(240, 233, 233);
+}
+
+.naslov1{
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.celija{
+    font-size: 17px;
+}
+
+.termin{
+    font-size: 30px;
+    color: black;
+}
+

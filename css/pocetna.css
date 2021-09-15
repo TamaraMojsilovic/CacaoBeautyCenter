@@ -1,0 +1,97 @@
+body{
+    background-color: wheat;
+}
+
+.div1{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.div2{
+    text-align: center;
+    background-color: rgb(160, 126, 62);
+    color: white;
+    position: sticky;
+    margin: auto;
+    height: 50px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.tabela{
+    position: relative;
+    margin-right: 0px;
+    margin-left: auto;
+    height: 100%;
+}
+
+.celija{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15pt;
+    border-left: solid white 1px;
+}
+
+.naslovnaSlika{
+    position:  relative;
+    top: 10px;
+}
+
+.prvi{
+    text-align: center;
+    height: 360px;
+    border: solid  rgb(160, 126, 62) 3px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.kontejner{
+    width: 80%;
+    position: relative;
+    margin: auto;
+    background-color: wheat;
+}
+
+.oNama{
+    color: black;
+    font-weight: bold;
+}
+
+.paragraf{
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.drugi{
+    text-align: center;
+    height: 360px;
+    border: solid  rgb(160, 126, 62) 3px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.termin{
+    color: black;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.treci{
+    text-align: center;
+    height: 360px;
+    border: solid  rgb(160, 126, 62) 3px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.galerija{
+    color: black;
+    font-weight: bold;
+    font-size: 15pt;
+}
